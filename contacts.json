@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Adison",
+        "lastName": "Collins",
+        "email": "wife@test.com",
+        "favoriteColor": "Purple",
+        "birthday": "08/30/00"
+    },
+    "contact2": {
+        "firstName": "Gavin",
+        "lastName": "Collins",
+        "email": "brother@test.com",
+        "favoriteColor": "Green",
+        "birthday": "01/12/02"
+    },
+    "contact3": {
+        "firstName": "Rachel",
+        "lastName": "Collins",
+        "email": "sister@test.com",
+        "favoriteColor": "Purple",
+        "birthday": "06/15/97"
+    }
+}
