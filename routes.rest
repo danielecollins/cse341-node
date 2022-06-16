@@ -58,7 +58,7 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT https://cse341node-dc.herokuapp.com/contacts/62aab6ab7a9839cc90cb4ad0 HTTP/1.1
+PUT https://cse341node-dc.herokuapp.com/contacts/62aab8773263199208d1bfd2 HTTP/1.1
 content-type: application/json
 
 {
@@ -70,4 +70,4 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE https://cse341node-dc.herokuapp.com/contacts/62aab6ab7a9839cc90cb4ad0 HTTP/1.1
+DELETE https://cse341node-dc.herokuapp.com/contacts/62aab8773263199208d1bfd2 HTTP/1.1
