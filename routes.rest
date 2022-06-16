@@ -11,6 +11,7 @@ GET http://localhost:8080/contacts/62a804897f6ca83cc742a7ca
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName":"Ashley",
     "lastName":"Weaver",
@@ -20,11 +21,9 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT http://localhost:8080/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT http://localhost:8080/contacts/62aaaf48ac4adb914f64f742 HTTP/1.1
 content-type: application/json
 
-### DELETE contact
-DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
 {
     "firstName":"Sarah",
     "lastName":"Birch",
@@ -32,6 +31,9 @@ DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
     "favoriteColor":"Green",
     "birthday":"12/12/20"
 }
+
+### DELETE contact
+DELETE http://localhost:8080/contacts/62aaaf48ac4adb914f64f742 HTTP/1.1
 
 // PRODUCTION Deploy
 ### Get all contacts
@@ -46,6 +48,7 @@ GET https://cse341node-dc.herokuapp.com/contacts/62a804897f6ca83cc742a7ca
 ### Create contact
 POST https://cse341-instructor.herokuapp.com/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName":"Ashley",
     "lastName":"Weaver",
@@ -57,6 +60,7 @@ content-type: application/json
 ### PUT contact
 PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
 content-type: application/json
+
 {
     "firstName":"Sarah",
     "lastName":"Birch",
