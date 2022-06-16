@@ -46,7 +46,7 @@ GET https://cse341node-dc.herokuapp.com/contacts/62a804897f6ca83cc742a7c9
 GET https://cse341node-dc.herokuapp.com/contacts/62a804897f6ca83cc742a7ca
 
 ### Create contact
-POST https://cse341-instructor.herokuapp.com/contacts HTTP/1.1
+POST https://cse341node-dc.herokuapp.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -58,7 +58,7 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT https://cse341node-dc.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
 content-type: application/json
 
 {
@@ -70,4 +70,4 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE https://cse341-instructor.herokuapp.com/contacts/6220e34083149913680f9a64 HTTP/1.1
+DELETE https://cse341node-dc.herokuapp.com/contacts/6220e34083149913680f9a64 HTTP/1.1
