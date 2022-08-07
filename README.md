@@ -1,1 +1,1 @@
-# cse341-node
+# Web Backend II: Learning node.js
